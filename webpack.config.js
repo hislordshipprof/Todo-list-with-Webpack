@@ -9,6 +9,8 @@ module.exports = {
     crud: './src/crudOps.js',
   },
   devtool: 'inline-source-map',
+  entry: './src/index.js',
+
   devServer: {
     static: './dist',
   },
@@ -24,6 +26,10 @@ module.exports = {
   },
   optimization: {
     runtimeChunk: 'single',
+  },
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
   },
   module: {
     rules: [
