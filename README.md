@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
 In order to use npm, node packages must be installed
 2. Installation
 go to your terminal and git clone the repo link you copied
- install npm modules
+ install npm module
 
 npm i
 
