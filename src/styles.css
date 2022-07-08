@@ -112,6 +112,10 @@ h1 {
 }
 
 .list-item:focus-within,
+.list-item:focus-within {
+  background-color: #fffeca;
+}
+
 .todo-item:focus {
   background-color: #fffeca;
 }
