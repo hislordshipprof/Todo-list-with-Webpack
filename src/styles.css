@@ -201,3 +201,10 @@ h1 {
   text-decoration: underline;
   opacity: 1;
 }
+
+.add-item p{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 6px;
+}
